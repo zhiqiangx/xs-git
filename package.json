@@ -1,0 +1,25 @@
+{
+  "name": "xs-git",
+  "version": "1.0.0",
+  "description": "git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiqiangx/xs-git.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "zhiqiangx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhiqiangx/xs-git/issues"
+  },
+  "homepage": "https://github.com/zhiqiangx/xs-git#readme",
+  "dependencies": {
+    "git-promise": "^1.0.0"
+  }
+}
