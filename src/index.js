@@ -1,11 +1,7 @@
-const git = require("git-promise");
+const execGit = require('./exec-git');
 
-const main = async (args) => {
-  if (Array.isArray(args)) {
-    const pullMsg = await git('log --pretty=format:--split--"%s"');
-    console.log('arr', pullMsg.split('--split--'));
-    console.log('addreq', pullMsg);
-  }
+const main = (args) => {
+  execGit(args);
 }
 
 module.exports = main;
